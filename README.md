@@ -1,30 +1,30 @@
 # Operating Systems Lab 5 — CPU Scheduling Simulation
 
-description: >
+Description: 
   This project simulates four CPU scheduling algorithms:
   - First Come First Serve (FCFS)
   - Shortest Job First (SJF)
   - Priority Scheduling
   - Round Robin (RR)
 
-build_instructions: |
+Build Instructions: 
   To compile the program:
-    $ make clean
-    $ make
+    - $ make clean
+    - $ make
 
-execution: |
+Execution:
   To run the simulator with provided input files:
-    $ ./schedsim input0.txt
-    $ ./schedsim input1.txt
-    $ ./schedsim input2.txt
+   - $ ./schedsim input0.txt
+   - $ ./schedsim input1.txt
+   - $ ./schedsim input2.txt
 
-testing: |
+Testing:
   Use the reference implementation schedsim_ref to verify results:
-    $ ./schedsim_ref fcfs input0.txt
-    $ ./schedsim_ref sjf input1.txt
-    $ ./schedsim_ref rr input2.txt
+   - $ ./schedsim_ref fcfs input0.txt
+   - $ ./schedsim_ref sjf input1.txt
+   - $ ./schedsim_ref rr input2.txt
 
-expected_output: |
+Expected Output:
   Example (input0.txt):
     *********
     FCFS
@@ -35,7 +35,7 @@ expected_output: |
     Average waiting time = 8.33
     Average turn around time = 16.00
 
-author:
-  name: Nathnael Bereketab
-  course: Operating Systems Lab 5
-  year: November 1, 2025
+Author:
+ - name: Nathnael Bereketab
+ - course: Operating Systems Lab 5
+ - year: November 1, 2025
